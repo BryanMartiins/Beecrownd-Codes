@@ -22,20 +22,26 @@ public class Main {
             System.out.printf("Media: %.1f\n", medPonderada); 
             System.out.println("Aluno aprovado.");
 
-        } else if (medPonderada >= 5.0 && medPonderada <= 6.9) {
+        } 
+        
+        else if (medPonderada >= 5.0 && medPonderada <= 6.9) {
             System.out.printf("Media: %.1f\n", medPonderada);
             System.out.println("Aluno em exame.");
             exame = scanner.nextDouble();
             System.out.println("Nota do exame: " + exame);
 
             medFinal = (exame + medPonderada) / 2;
+
             if (medFinal >= 5.0 && medFinal <= 10.0) {
                 System.out.println("Aluno aprovado.");
-            } else {
+            }
+            else {
                 System.out.println("Aluno reprovado.");
             }
             System.out.println("Media final: " + medFinal);
         }
+
+        
         else {
             System.out.printf("Media: %.1f\n", medPonderada-0.1);
             System.out.println("Aluno reprovado.");
