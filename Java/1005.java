@@ -14,7 +14,7 @@ public class Main {
 
         media = (X*3.5+Y*7.5)/11;
         
-
+    
         System.out.printf("MEDIA = %.5f\n",media);
     }
 }
