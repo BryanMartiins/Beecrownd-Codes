@@ -6,27 +6,26 @@ public class 1146 {
         Scanner input = new Scanner(System.in);
 
         int X;
-
         X = input.nextInt();
         while (X != 0) {
+            
+            for (int i = 1; i <= X; i++) {
 
-            for (int j = 1; j <= X; j++) {
-
-                if (j == X) {
-                    System.out.printf("%d", j);
+                if (X == 0) {
+                    break;
                 }
 
-                else {
-                    System.out.printf("%d ", j);
+                else if (i == X) {
+                    System.out.printf("%d \n", i);
+                } else {
+                    System.out.printf("%d ", i);
                 }
 
             }
-            System.out.println();
             X = input.nextInt();
         }
+        
 
     }
 
 }
-    
-

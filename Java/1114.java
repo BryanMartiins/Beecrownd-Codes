@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Main {
+public class 1114 {
     public static void main(String[] args) {
 
 
-        // Exercicio 1
+     
 
         Scanner sc = new Scanner(System.in);
 
         int X;
 
-        X= sc.nextInt();
+        X = sc.nextInt();
 
         while(X>0){
             if(X==2002){
